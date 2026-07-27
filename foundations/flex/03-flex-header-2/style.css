@@ -47,6 +47,7 @@ ul {
   list-style-type: none;
 }
 
+/* SOLUTION */
 .header {
   display: flex;
   justify-content: space-between;
@@ -55,11 +56,13 @@ ul {
 
 ul {
   display: flex;
-  margin: 0;
-  padding: 0;
   gap: 16px;
+  padding: 0;
+  margin: 0;
 }
-.left .right {
+
+.left,
+.right {
   display: flex;
   align-items: center;
   gap: 16px;
