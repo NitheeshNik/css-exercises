@@ -29,3 +29,19 @@ body {
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
 }
+
+.header {
+  font-size: 32px;
+  font-weight: 900px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
